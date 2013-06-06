@@ -1,1 +1,1 @@
-cut -d , -f 3 ../data/sightings.csv | sort | uniq
+cut -d , -f 3 ../data/sightings.csv | sort | uniq | wc -l
